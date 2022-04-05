@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.escuro{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+
+.inativo {color:gray;}
+.direita {text-align:right;}
+.negativado {color:red;}
