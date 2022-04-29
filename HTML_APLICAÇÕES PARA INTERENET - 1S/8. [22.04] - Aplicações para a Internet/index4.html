@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+		<title>Tabela 4 c/CSS</title>
+		<meta charset="UTF-8">
+		<style>
+			/* Deixando a imagem pequena */
+			img { width : 200px ;}
+			
+			/*  Borda na tabela */
+			table  { 
+				border: 5px dashed red ;
+			}
+			
+			/* Estilizando a borda das células de cabeçalho */
+			th { 
+				border: 2px solid green ;
+				background-color:silver;
+			}
+			
+			/* Estilizando a borda das células de dados */
+			td { border: 1px solid navy ;}
+			
+			/* Criar uma classe para alinhar 
+				as células de valores do lado direito */
+			.direita {text-align:right;}
+			
+			.zebrado {background-color:pink;}
+			
+			.inativa { color : gray;}
+			
+			.negativado {color:red;}
+			
+		</style>
+	</head>
+
+	<body>
+		<h1>Tabela 4 c/CSS</h1>
+		<table>
+			<tbody><tr>
+				<th>Nome</th>
+				<th>Saldo Atual</th>
+				<th>Situação</th>
+			</tr>
+			
+			<tr>
+				<td>Ana Júlia Marcondes</td>
+				<td class="direita">2.580,90</td>
+				<td>Ativa</td>
+			</tr>
+			
+			<tr class="zebrado">
+				<td>Carlos Majer</td>
+				<td class="direita">9.290,12</td>
+				<td>Ativa</td>
+			</tr>
+
+			<tr class="inativa">
+				<td>Juliana Silva</td>
+				<td class="direita">0,00</td>
+				<td>Inativa</td>
+			</tr>
+
+			<tr class="zebrado negativado">
+				<td> 
+					Sr. Madruga
+					<br>
+					<img src="devedor.jpg" title="Seu Madruga negativado" alt="Imagem do seu Barriga cobrando o seu Madruga">
+				</td>
+				
+				<td class="direita">-98.571,75</td>
+				<td>Negativado</td>
+			</tr>
+		</tbody></table>
+	
+</body></html>
