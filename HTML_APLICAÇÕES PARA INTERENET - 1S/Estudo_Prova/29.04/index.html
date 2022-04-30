@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estudos Prova - 29.04</title>
+
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+</head>
+
+<body>
+    <h1>Conteúdos da prova:</h1>
+    <ul>
+        <li>Links</li>
+        <li>Listas</li>
+        <li> Imagens</li>
+        <li>Tabelas</li>
+    </ul>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- --------------------------------------------------------------- -->
+    <h2>Links</h2>
+    <p>Para colocar um link na página é preciso da tag a juntamente com o HREF; e para colocar um texto todo grifadocom
+        link, assim como foi feito abaixo, é preciso escrever entre da tag a</p>
+
+    <!-- 1 - Apenas colocar um link e a palavra grifada, apenas com a tag a -->
+    <a href="https://github.com/Milenakamine">Clique aqui para ser direcionado ao GitHub de Milena Akamine</a>
+
+    <!-- 2 -Colocar um link entre um parágrafo, apenas para uma pequena frase/palavra ficar com o link -->
+    <p>Clique <a href="https://github.com/Milenakamine">aqui</a> para ser redirecionado para o GitHub de Milena Akamine
+    </p>
+
+    <!-- 3 - Colocar um texto que o link direciona apra uma imagem-->
+    <a
+        href="https://eduardosalerno.com.br/wp-content/uploads/2018/07/o-que-e-css-e-quais-sao-os-tipos-de-folhas-de-estilo.png">Bora
+        Codar!!!</a>
+
+    <!-- 4 - Linkar uma página na outra-->
+    <p>De uma página para a outra: <a href="link.html">ao clicar aqui você será redirecionadi para outro página</a></p>
+    <!-- --------------------------------------------------------------- -->
+    <br>
+    <br>
+    <br>
+
+
+    <h2>Listas Ordenadas/Não Ordenadas</h2>
+    <ul>
+        <li>
+            <p>Listas Ordenadas: utiliza-se a tag ol</p>
+            <ol> Filmes que valem a pena ver de novo:
+                <li>10 coisas que eu odeio em você</li>
+                <li>Como eu era antes de você</li>
+                <li>Se ela dança eu danço</li>
+            </ol>
+        </li>
+
+        <li>
+            <p>Listas Não Ordenadas: utiliza-se a tag ul</p>
+            <ol> Lista de Supermercado
+                <li>Leite</li>
+                <li>Arroz</li>
+                <li>Feião</li>
+            </ol>
+        
+        </li>
+    </ul>
+    
+
+
+    <!-- --------------------------------------------------------------- -->
+    <br>
+    <br>
+    <br>
+
+
+    <h2>Imagens</h2>
+    <p>Para colocar imagens é preciso sa tag img, que não tem necessidade de fechamento</p>
+    <!-- imagem com link direto -->
+    <img style="width: 170px;" src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/11/fragmento-codigo-html.jpg" alt="Código">
+    <!-- imagem com repositório local -->
+    <img style="width: 200px;" src="./img/programacao-html5-desenvolvimento-de-sites-da-internet-engenharia-de-aplicativos-da-web-escrita-de-scripts-otimizacao-de-codigo-html-ilustracao-do-conceito-de-co.webp" alt="ilustração do HTML5">
+    <!-- imagem ser um link que leva a alguma página da web -->
+    <br>
+    <a href="https://www.giulianaflores.com.br/"> 
+        <img style= "width: 50px;"src="https://static.giulianaflores.com.br/images/product/26996gg.jpg" alt="">
+    </a>
+    <!-- --------------------------------------------------------------- -->
+    <br>
+    <br>
+    <br>
+    <!-- --------------------------------------------------------------- -->
+    <h2>Tabelas</h2>
+    <p>Para criação de uma tabela é necessário utilizar a tag table</p>
+    <table>
+        <!-- o thead é a cabeça da tabela -> a parte de cima que contém os nome genéricos que serão atribuidos valor -->
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- o tbody é o corpo da tabela--> 
+            <tr>
+                <!-- tr é cada linha de celula  -->
+                <td>Milena</td>
+                <td>119999999</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>1146465464</td>
+            </tr>
+            <tr>
+                <td>Melissa</td>
+                <td>44555454545</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Valor que está em aberto</th>
+            <th>Devedor</th>
+        </thead>
+
+        <tbody>
+            <td>Milena</td>
+            <td>1.000</td>
+            <td><img style="width: 35px;" src="https://aventurasnahistoria.uol.com.br/media/_versions/entretenimento/chaves_1_widelg.jpg" alt=""> Negativada</td>
+        </tbody>
+    </table>
+    <!-- --------------------------------------------------------------- -->
+</body>
+
+</html>
